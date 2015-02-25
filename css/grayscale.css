@@ -27,17 +27,25 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
+    margin: 0px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
+
+.text-tools{
+    font-family: 'Helvetica Neue';
+    font-style: italic;
+    font-size: 16px;
+}
+
 #web{
     color: white;
     text-shadow: 2px 3px 8px #000;
     font-size: 27px;
 }
+
 h1, #contact2{
     text-shadow: 2px 3px 8px #000;
 }
