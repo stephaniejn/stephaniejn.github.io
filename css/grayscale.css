@@ -34,11 +34,33 @@ h6 {
     letter-spacing: 1px;
 }
 
+h2{
+    margin-bottom: 20px;
+}
+
+h4{
+    margin-bottom: 25px;
+}
+
 .text-tools{
     font-family: 'Helvetica Neue';
     font-style: italic;
     font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
+
+.app-description{
+    font-family: 'Helvetica Neue';
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+ .descriptions{
+        max-width: 500px;
+        margin:0 auto; 
+        display:block
+    }
 
 #web{
     color: white;
@@ -66,12 +88,6 @@ border-top: 1px solid gray;
 border-bottom: 1px solid gray;
 }
 
-p {
-    margin: 0 0 25px;
-    font-size: 18px;
-    line-height: 1.5;
-}
-
 /* Portfolio */
 
 .portfolio {
@@ -86,13 +102,17 @@ p {
     margin: 0 auto;
 }
 
+#soccer-image{
+    margin-top: 74px;
+}
+
 .img-portfolio:hover {
     opacity: 0.8;
 }
 
 @media(min-width:767px) {
     p {
-        margin: 0 0 35px;
+        margin: 0 0 25;
         font-size: 20px;
         line-height: 1.6;
     }
@@ -387,6 +407,9 @@ ul.banner-social-buttons {
     ul.banner-social-buttons {
         margin-top: 15px;
     }
+    #soccer-image{
+        margin-top: 0;
+    }
 }
 
 @media(max-width:767px) {
@@ -395,6 +418,10 @@ ul.banner-social-buttons {
         margin-bottom: 20px;
         padding: 0;
     }
+
+/*    #soccer-image{
+        margin-top: 0;
+    }*/
 
      #web{
         font-size: 20px;
