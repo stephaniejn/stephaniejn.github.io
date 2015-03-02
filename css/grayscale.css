@@ -88,6 +88,11 @@ border-top: 1px solid gray;
 border-bottom: 1px solid gray;
 }
 
+.row {
+margin-right: 0px;
+margin-left: 0px;
+}
+
 /* Portfolio */
 
 .portfolio {
@@ -150,11 +155,6 @@ a:focus {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #716269;
-    width: 100%;
-    height: auto;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
 }
 
 
@@ -223,11 +223,6 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         border-bottom: 3px solid rgba(255,255,255,.3);
     }
-}
-
-.row {
-margin-right: 0px;
-margin-left: 0px;
 }
 
 .intro {
