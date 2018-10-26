@@ -27,6 +27,8 @@ h6 {
 }
 
 
+
+
 hr.star-light,
 hr.star-dark {
   max-width: 15rem;
@@ -81,6 +83,13 @@ section {
 section h2 {
   font-size: 2.25rem;
   line-height: 2rem;
+}
+
+#contactsteph{
+  color: #716269;
+  text-align: center;
+  padding-bottom: 3rem;
+  padding-top: 1.5rem;
 }
 
 @media (min-width: 992px) {
