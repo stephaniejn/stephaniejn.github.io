@@ -24,6 +24,7 @@ h6 {
 
 #stephimage{
   padding-top: 1rem;
+  margin-left: 3rem;
 }
 
 
@@ -97,6 +98,13 @@ section h2 {
     font-size: 3rem;
     line-height: 2.5rem;
   }
+}
+
+@media (max-width: 991px){
+  #stephimage{
+  margin-left: auto;
+}
+
 }
 
 .btn-xl {
