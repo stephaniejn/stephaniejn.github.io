@@ -77,6 +77,10 @@ hr.star-dark:after {
   background-color: white;
 }
 
+.videolink{
+  text-decoration: underline!important;
+}
+
 section {
   padding: 3rem 0 1rem 0;
 }
