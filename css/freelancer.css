@@ -114,6 +114,7 @@ section h2 {
   }
   #navbarparagraph{
     padding-bottom: 0rem;
+    margin-bottom: 0rem;
   }
 
 }
@@ -453,3 +454,12 @@ a:focus, a:hover, a:active {
   background-color: #1a252f;
   border-color: #1a252f;
 }
+
+@media (max-width: 390px) {
+  #navbarparagraph {
+    font-size: 0.5em;
+}
+.img-stray {
+    padding-top: 5.4rem;
+}
+  }
