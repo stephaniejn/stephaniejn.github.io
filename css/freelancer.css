@@ -23,12 +23,16 @@ h6 {
 }
 
 #stephimage{
-  padding-top: 1rem;
   margin-left: 3rem;
 }
 
+#navbarparagraph{
+  font-size: 0.6em;
+}
 
-
+.mb-5, .my-5 {
+    margin-bottom: 1.5rem!important;
+}
 
 hr.star-light,
 hr.star-dark {
@@ -37,8 +41,8 @@ hr.star-dark {
   text-align: center;
   border: none;
   border-top: solid 0.25rem;
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
+  margin-top: 1.75rem;
+  padding-bottom: 1.75rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -94,7 +98,7 @@ section h2 {
   color: #716269;
   text-align: center;
   padding-bottom: 3rem;
-  padding-top: 1.5rem;
+  padding-top: 0.5rem;
 }
 
 @media (min-width: 992px) {
@@ -106,8 +110,11 @@ section h2 {
 
 @media (max-width: 991px){
   #stephimage{
-  margin-left: auto;
-}
+    margin-left: auto;
+  }
+  #navbarparagraph{
+    padding-bottom: 0rem;
+  }
 
 }
 
@@ -198,8 +205,8 @@ section h2 {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0rem;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
@@ -221,7 +228,7 @@ section h2 {
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0rem;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
@@ -283,7 +290,12 @@ header.masthead h2 {
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
   font-weight: bold;
-  text-shadow: 2px 2px black;
+  /*text-shadow: 2px 2px black;*/
+}
+
+#photodescription{
+  font-size: 1rem;
+  font-weight: normal!important;
 }
 
 @media (min-width: 576px) {
